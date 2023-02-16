@@ -1,0 +1,12 @@
+Filesystem      Size  Used Avail Use% Mounted on
+udev            830M     0  830M   0% /dev
+tmpfs           168M  640K  168M   1% /run
+/dev/sda1        30G  5.7G   23G  21% /
+tmpfs           840M     0  840M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sda15      124M   11M  114M   9% /boot/efi
+tmpfs           168M     0  168M   0% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            1678         558         198           0         921         936
+Swap:              0           0           0
+ 18:47:45 up 15 days, 17:52,  1 user,  load average: 0.00, 0.03, 0.00
