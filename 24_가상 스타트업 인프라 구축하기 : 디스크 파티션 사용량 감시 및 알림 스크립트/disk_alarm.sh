@@ -40,8 +40,8 @@ function awk_shell {
 			MOUNT=${MOUNTS[${IDX}]}
 
 			# 보낼 메시지 정의
-			TEXT+="${MOUNT}
-			디스크 용량이 ${USAGE} 까지 올랐습니다!"
+			TEXT+="${MOUNT} : [${USAGE}%]
+			"
 		fi
 	done
 
