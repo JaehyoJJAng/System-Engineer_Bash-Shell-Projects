@@ -9,7 +9,7 @@
 
 
 # Parameter 체크
-if [[ ${#} -ne 3 ]]
+if [[ ${#} -ne 2 ]]
 then
 	# Console Clear
 	/usr/bin/clear
@@ -43,7 +43,7 @@ DATE="$(date +'%Y-%m-%d %H:%M')"
 # 보낼 메시지 작성
 TEXT="${DATE} 
 [${1}] Server 알림
-${2} : ${3}"
+${2}"
 
 ## 메시지 보내기
 # 출력 결과는 필요 없기에 /dev/null 로 보냄
